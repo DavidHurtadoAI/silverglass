@@ -1,6 +1,6 @@
 # Silverglass
 
-A silver-and-blue skeuomorphic theme for [Obsidian](https://obsidian.md): polished metal, recessed blue glass, bevelled buttons, and controls that look like something you can touch. Light silver and dark gunmetal modes. I'm David Hurtado, and I built this with **Máquina** — the name I use for my usual AI assistant: sometimes ChatGPT, sometimes Claude, and sometimes Copilot.
+A silver-and-blue skeuomorphic theme for [Obsidian](https://obsidian.md): polished metal, recessed blue glass, bevelled buttons, and controls that look like something you can touch. Light silver and dark gunmetal modes. I'm David Hurtado, and I built this with **Máquina** -the name I use for my usual AI assistant: sometimes ChatGPT, sometimes Claude, and sometimes Copilot.
 
 ## From a Winamp post to a working theme in 13 minutes
 

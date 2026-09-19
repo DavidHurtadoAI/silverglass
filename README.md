@@ -30,6 +30,10 @@ These are the light and dark screenshots I selected for this release.
 
 ![Silverglass in dark mode, with gunmetal panels and blue glass](screenshots/dark.png)
 
+### Light and dark comparison
+
+![Silverglass light and dark modes combined in a diagonal comparison](screenshots/light-dark-comparison.png)
+
 ## Install
 
 Silverglass is published on GitHub. It has **not yet been accepted into the Obsidian Community Themes directory**.
@@ -79,6 +83,6 @@ Edit `theme.css`. To test, copy it and `manifest.json` into the theme folder of 
 
 ## License and credits
 
-[MIT](LICENSE) © 2026 David Hurtado for the theme code and original demo. I supplied the two theme screenshots for this project.
+[MIT](LICENSE) © 2026 David Hurtado for the theme code and original demo. I supplied the theme screenshots for this project.
 
 Visual inspiration: the classic Winamp interface in the post I shared. The original post screenshot is included above for context; no Winamp skin bitmap, logo, proprietary font or source code is used as an asset in the theme. Silverglass is not affiliated with Winamp or Obsidian. The demo track label is a nod to the reference image.

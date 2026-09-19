@@ -1,7 +1,12 @@
 {
   "name": "silverglass-theme",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": true,
-  "scripts": { "lint": "stylelint theme.css --max-warnings 0" },
-  "devDependencies": { "stylelint": "^17.0.0", "stylelint-config-obsidianmd": "latest" }
+  "scripts": {
+    "lint": "stylelint theme.css --max-warnings 0"
+  },
+  "devDependencies": {
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "latest"
+  }
 }

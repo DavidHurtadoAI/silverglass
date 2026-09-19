@@ -627,6 +627,12 @@ a.tag:hover {
   background: var(--tag-background-hover);
 }
 
+/* Property names stay flat like their values. */
+input.metadata-property-key-input {
+  border: none;
+  box-shadow: none;
+}
+
 .metadata-container {
   border: 1px solid var(--background-modifier-border);
   border-radius: 8px;

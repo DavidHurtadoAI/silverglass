@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.5
+
+Remove the border and inset shadow from frontmatter property names so they appear flat like property values in light and dark modes.
+
 ## 0.1.4
 
 Include `screenshots/light-dark-comparison.png` in the published release revision so the Obsidian Community directory can resolve the selected screenshot. Also includes the updated README and original inspiration screenshot. No visual theme changes.

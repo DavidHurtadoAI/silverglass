@@ -30,14 +30,6 @@ These are the light and dark screenshots I selected for this release.
 
 ![Silverglass in dark mode, with gunmetal panels and blue glass](screenshots/dark.png)
 
-### What is the player in the middle?
-
-**The central player is an interactive HTML/CSS prototype that Máquina created as a visual reference and a personal demo for me.** It is embedded in an Obsidian note; it is not a screenshot pasted into the note, a built-in Obsidian feature, or a music-player plugin.
-
-You can move its position, volume, balance, and equalizer sliders. The display, spectrum, transport symbols and menu labels are illustrative: **it does not play audio or process sound**, and slider positions are not saved. Installing the theme does not add this panel to your notes automatically.
-
-The surrounding Obsidian interface is the actual theme: tabs, sidebars, buttons, inputs, sliders, menus, settings, tags, tables and callouts.
-
 ## Install
 
 Silverglass is published on GitHub. It has **not yet been accepted into the Obsidian Community Themes directory**.

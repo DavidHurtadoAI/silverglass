@@ -1,0 +1,52 @@
+Metal pulido. Cristal azul. Controles que apetece tocar.
+
+<div class="sg-deck" aria-label="Silverglass: maqueta visual de un equipo de música">
+<div class="sg-title">◈ &nbsp; SILVERGLASS &nbsp; ▰ □ ×</div>
+<div class="sg-menu"><span>File</span><span>Play</span><span>Options</span><span>View</span><span>Help</span></div>
+<div class="sg-main">
+<div class="sg-screen-row"><div class="sg-display">
+<div class="sg-readout"><div class="sg-time">▸ 0:03</div><div class="sg-codec">KBPS <b>56</b> · KHZ <b>22</b><br><b>STEREO</b> &nbsp; ∞</div><div class="sg-spectrum" aria-hidden="true"><i style="height:9px"></i><i style="height:15px"></i><i style="height:24px"></i><i style="height:17px"></i><i style="height:29px"></i><i style="height:38px"></i><i style="height:22px"></i><i style="height:15px"></i><i style="height:19px"></i><i style="height:32px"></i><i style="height:45px"></i><i style="height:35px"></i><i style="height:24px"></i><i style="height:30px"></i><i style="height:43px"></i><i style="height:38px"></i><i style="height:27px"></i><i style="height:19px"></i><i style="height:32px"></i><i style="height:42px"></i><i style="height:46px"></i><i style="height:39px"></i></div></div>
+<div class="sg-track">DJ MIKE LLAMA — LLAMA WHIPPIN’ INTRO</div>
+</div><div class="sg-side-controls"><span class="sg-pill">▾</span><span class="sg-pill">P <i></i></span><span class="sg-pill">123 <i></i></span></div></div>
+<div class="sg-seek"><input type="range" aria-label="Posición de muestra (sin audio)" min="0" max="100" value="54"><span class="sg-pill"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 14 7-9 7 9ZM5 19h14"/></svg></span><span class="sg-pill">PL</span><span class="sg-pill">ML</span></div>
+<div class="sg-transport"><span class="sg-key"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 5v14M18 5 8 12l10 7Z"/></svg></span><span class="sg-key sg-play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7 5 10 7-10 7Z"/></svg></span><span class="sg-key"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg></span><span class="sg-key"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6h12v12H6Z"/></svg></span><span class="sg-key"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 5v14M6 5l10 7-10 7Z"/></svg></span><span class="sg-key"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4ZM17 8q5 4 0 8"/></svg></span><input class="sg-volume" type="range" aria-label="Volumen de muestra (sin audio)" min="0" max="100" value="75"><span>CONFIG</span><span class="sg-bolt">ϟ</span></div>
+</div>
+<div class="sg-equalizer"><div class="sg-eq-body"><div class="sg-eq-switches"><span>▦ ▰ ▦</span><input type="range" aria-label="Balance de muestra" min="0" max="100" value="50"><span class="sg-pill">ON ·</span><span class="sg-pill">AUTO</span><span class="sg-pill">PRESETS</span></div><div class="sg-eq-bands"><label class="sg-band"><input type="range" min="0" max="100" value="50" aria-label="Ecualizador de muestra PRE"><span>PRE</span></label><label class="sg-band"><input type="range" min="0" max="100" value="35" aria-label="Ecualizador de muestra 60"><span>60</span></label><label class="sg-band"><input type="range" min="0" max="100" value="46" aria-label="Ecualizador de muestra 170"><span>170</span></label><label class="sg-band"><input type="range" min="0" max="100" value="59" aria-label="Ecualizador de muestra 310"><span>310</span></label><label class="sg-band"><input type="range" min="0" max="100" value="67" aria-label="Ecualizador de muestra 600"><span>600</span></label><label class="sg-band"><input type="range" min="0" max="100" value="62" aria-label="Ecualizador de muestra 1K"><span>1K</span></label><label class="sg-band"><input type="range" min="0" max="100" value="64" aria-label="Ecualizador de muestra 3K"><span>3K</span></label><label class="sg-band"><input type="range" min="0" max="100" value="57" aria-label="Ecualizador de muestra 6K"><span>6K</span></label><label class="sg-band"><input type="range" min="0" max="100" value="50" aria-label="Ecualizador de muestra 12K"><span>12K</span></label><label class="sg-band"><input type="range" min="0" max="100" value="49" aria-label="Ecualizador de muestra 14K"><span>14K</span></label><label class="sg-band"><input type="range" min="0" max="100" value="52" aria-label="Ecualizador de muestra 16K"><span>16K</span></label></div></div><div class="sg-eq-footer"><span class="sg-pill">EQUALIZER</span><span class="sg-pill">OPTIONS</span><span class="sg-pill">COLOR THEMES</span><span class="sg-pill">▴</span></div></div>
+</div>
+
+<p class="sg-caption">FRONTAL DE DEMOSTRACIÓN · deslizadores manipulables · sin reproducción de audio</p>
+
+> [!lcd] SIGNAL LOCKED · SILVERGLASS 0.1
+> Una interfaz con peso, profundidad y reflejos. El tema viste los controles reales de Obsidian; el frontal de arriba muestra el lenguaje visual completo.
+
+## Tu mesa de trabajo, en plata y azul
+
+Las pestañas son placas de metal, la selección se ilumina en azul y los botones tienen borde, relieve y un estado de pulsación. El editor conserva el espacio y el contraste para escribir.
+
+- [x] Paneles de metal con biseles y reflejos.
+- [x] Pantallas de cristal azul y tipografía de consola.
+- [x] Botones redondos, interruptores y deslizadores.
+- [x] Pestañas, búsqueda, menús y ajustes tematizados.
+- [ ] Escoger tu siguiente canción.
+
+| Pieza | Material | En Obsidian |
+| --- | --- | --- |
+| Carcasa | Plata satinada | Laterales y barras |
+| Pantalla | Cristal azul | Pestañas activas y callouts LCD |
+| Controles | Metal biselado | Botones, sliders e interruptores |
+
+## Prueba los detalles
+
+Abre **Ajustes → Apariencia** para ver los botones, campos, interruptores y deslizadores reales. Cambia entre claro y oscuro: plata clásica o metal nocturno.
+
+> [!tip] Todo local
+> CSS original, sin imágenes ni fuentes remotas, sin plugins necesarios. Para volver atrás, elige el tema predeterminado en Apariencia.
+
+Un enlace de ejemplo: [[Silverglass - Demo]]. Una etiqueta: #silverglass. Código: `const material = "silver + blue glass";`
+
+```css
+.callout[data-callout="lcd"] {
+  /* Usa > [!lcd] en cualquier nota */
+  background: var(--sg-screen);
+}
+```

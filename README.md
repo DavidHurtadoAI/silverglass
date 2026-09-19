@@ -1,22 +1,22 @@
 # Silverglass
 
-A silver-and-blue skeuomorphic theme for [Obsidian](https://obsidian.md): polished metal, recessed blue glass, bevelled buttons, and controls that look like something you can touch. Light silver and dark gunmetal modes. I'm David Hurtado, and I built this with OpenAI Codex.
+A silver-and-blue skeuomorphic theme for [Obsidian](https://obsidian.md): polished metal, recessed blue glass, bevelled buttons, and controls that look like something you can touch. Light silver and dark gunmetal modes. I'm David Hurtado, and I built this with **Máquina** — the name I use for my usual AI assistant: sometimes ChatGPT, sometimes Claude, and sometimes Copilot.
 
 ## From a Winamp post to a working theme in 13 minutes
 
-I saw a post on X by Jose Saez-Merino, quoting Rushil Shah, with an image of a classic Winamp interface: silver metal, blue glass, round transport buttons, and an equalizer. It made me wonder: could Codex build an Obsidian theme with those same design principles?
+I saw a post on X by Jose Saez-Merino, quoting Rushil Shah, with an image of a classic Winamp interface: silver metal, blue glass, round transport buttons, and an equalizer. It made me wonder: could Máquina build an Obsidian theme with those same design principles?
 
 ![The original X post by Jose Saez-Merino quoting Rushil Shah, featuring the silver-and-blue Winamp interface that inspired Silverglass](screenshots/inspiration-x-post.png)
 
-*The original post screenshot I shared with Codex to start the project. Included as the visual reference for this story; the post and Winamp artwork belong to their respective owners and are not covered by this project's MIT license.*
+*The original post screenshot I shared with Máquina to start the project. Included as the visual reference for this story; the post and Winamp artwork belong to their respective owners and are not covered by this project's MIT license.*
 
-I showed the screenshot to Codex and asked whether similar themes existed and how much work it would take to build one. Its estimate went as far as **one to two weeks** for a polished, distributable theme. I laughed. I bet it could do a first version in **less than half an hour**, and told it to go ahead.
+I showed the screenshot to Máquina and asked whether similar themes existed and how much work it would take to build one. Its estimate went as far as **one to two weeks** for a polished, distributable theme. I laughed. I bet it could do a first version in **less than half an hour**, and told it to go ahead.
 
-**Codex built and installed the first working prototype in 13 minutes.**
+**Máquina built and installed the first working prototype in 13 minutes.**
 
-I then tried it in Obsidian and sent back screenshots pointing out small issues: off-center icons, inconsistent button sizes, slider alignment, repeated dropdown arrows, the right-hand title bar, and tag contrast in light mode. Codex corrected them, and those refinements became the 0.1.x releases.
+I then tried it in Obsidian and sent back screenshots pointing out small issues: off-center icons, inconsistent button sizes, slider alignment, repeated dropdown arrows, the right-hand title bar, and tag contrast in light mode. Máquina corrected them, and those refinements became the 0.1.x releases.
 
-That's how Silverglass came about. I brought the reference, challenged the estimate, and reviewed the results; Codex wrote the code and made the corrections. The 13 minutes describe the first working prototype. We spent additional time refining and testing the version you can download here.
+That's how Silverglass came about. I brought the reference, challenged the estimate, and reviewed the results; Máquina wrote the code and made the corrections. The 13 minutes describe the first working prototype. We spent additional time refining and testing the version you can download here.
 
 ## Screenshots
 
@@ -32,7 +32,7 @@ These are the light and dark screenshots I selected for this release.
 
 ### What is the player in the middle?
 
-**The central player is an interactive HTML/CSS prototype that Codex created as a visual reference and a personal demo for me.** It is embedded in an Obsidian note; it is not a screenshot pasted into the note, a built-in Obsidian feature, or a music-player plugin.
+**The central player is an interactive HTML/CSS prototype that Máquina created as a visual reference and a personal demo for me.** It is embedded in an Obsidian note; it is not a screenshot pasted into the note, a built-in Obsidian feature, or a music-player plugin.
 
 You can move its position, volume, balance, and equalizer sliders. The display, spectrum, transport symbols and menu labels are illustrative: **it does not play audio or process sound**, and slider positions are not saved. Installing the theme does not add this panel to your notes automatically.
 
@@ -52,7 +52,7 @@ To stop using it, select the default theme in Appearance. No plugin, account, ne
 
 ## Try the optional prototype
 
-- **Inside Obsidian:** copy [`examples/Silverglass - Demo.md`](examples/Silverglass%20-%20Demo.md) into your vault, activate Silverglass, and open the note in Reading view. The example is in Spanish because that's the language I used with Codex.
+- **Inside Obsidian:** copy [`examples/Silverglass - Demo.md`](examples/Silverglass%20-%20Demo.md) into your vault, activate Silverglass, and open the note in Reading view. The example is in Spanish because that's the language I used with Máquina.
 - **In a browser:** download or clone this repository and open [`preview.html`](preview.html) locally. Keep `theme.css` beside it. This is a standalone prototype, not a hosted website.
 
 The example uses inline HTML and SVG. It contains no scripts or external resources. The full-size front panel is designed for a reasonably wide note pane; narrow panes may clip parts of this optional demo.

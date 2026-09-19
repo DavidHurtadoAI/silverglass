@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4
+
+Include `screenshots/light-dark-comparison.png` in the published release revision so the Obsidian Community directory can resolve the selected screenshot. Also includes the updated README and original inspiration screenshot. No visual theme changes.
+
 ## 0.1.3
 
 First public GitHub release. Fix tag contrast in light mode, including editor hashtags and hover colors.

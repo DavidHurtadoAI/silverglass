@@ -64,7 +64,7 @@ Use this in any note:
 
 ## Compatibility and validation
 
-- Version **0.1.3**, tested on **Obsidian 1.14.2 for Windows**.
+- Version **0.1.4**, tested on **Obsidian 1.14.2 for Windows**.
 - `minAppVersion` is conservatively set to `1.14.2`; older versions have not been verified.
 - Both light and dark modes were checked in the app. Mobile devices and other operating systems have not been tested.
 - The theme passes the official `stylelint-config-obsidianmd` configuration with zero errors and warnings. This does not imply approval by the Community directory or exhaustive compatibility with every plugin.

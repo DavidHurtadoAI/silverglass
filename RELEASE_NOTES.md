@@ -1,13 +1,7 @@
-First public release of Silverglass, a silver-and-blue skeuomorphic theme for Obsidian.
+Fix the screenshot revision used for Obsidian Community directory validation.
 
-- Light silver and dark gunmetal modes.
-- Bevelled controls, recessed blue glass, styled tabs, sidebars, settings and Markdown.
-- Refined icon alignment, sliders, dropdowns, right-hand titlebar and tag contrast.
-- Optional interactive HTML/CSS front-panel demo; no audio playback.
-- Official Obsidian Stylelint checks pass with zero errors and warnings.
+The release now includes `screenshots/light-dark-comparison.png` in its tagged repository revision, together with the updated README and inspiration screenshot. The previous 0.1.3 tag predated those additions.
 
-Tested on Obsidian 1.14.2 for Windows. Mobile and other operating systems are not yet tested. Community Themes directory submission is pending.
+No visual theme changes. Install using the attached `theme.css` and `manifest.json` in `.obsidian/themes/Silverglass/`.
 
-Install by placing the attached `theme.css` and `manifest.json` inside `.obsidian/themes/Silverglass/`, then select Silverglass in Settings → Appearance.
-
-See the README for the story of the first 13-minute prototype and the light/dark screenshots.
+Tested on Obsidian 1.14.2 for Windows. Community directory approval is still pending.

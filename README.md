@@ -6,6 +6,10 @@ A silver-and-blue skeuomorphic theme for [Obsidian](https://obsidian.md): polish
 
 David saw a post on X by Jose Saez-Merino, quoting Rushil Shah, with an image of a classic Winamp interface: silver metal, blue glass, round transport buttons, and an equalizer. It prompted a question: could an AI build an Obsidian theme with those same design principles?
 
+![The original X post by Jose Saez-Merino quoting Rushil Shah, featuring the silver-and-blue Winamp interface that inspired Silverglass](screenshots/inspiration-x-post.png)
+
+*The original post screenshot David shared to start the project. Included as the visual reference for this story; the post and Winamp artwork belong to their respective owners and are not covered by this project's MIT license.*
+
 He showed the screenshot to Codex and asked whether similar themes existed and how much work it would take to build one. Codex's estimate went as far as **one to two weeks** for a polished, distributable theme. David laughed and challenged it: **less than half an hour**.
 
 **The first working prototype was built and installed in 13 minutes.**
@@ -85,4 +89,4 @@ Edit `theme.css`. To test, copy it and `manifest.json` into the theme folder of 
 
 [MIT](LICENSE) © 2026 David Hurtado for the theme code and original demo. The two screenshots were supplied by David for this project.
 
-Visual inspiration: the classic Winamp interface in the post David shared. No Winamp skin bitmap, logo, proprietary font or source code is bundled. Silverglass is not affiliated with Winamp or Obsidian. The demo track label is a nod to the reference image.
+Visual inspiration: the classic Winamp interface in the post David shared. The original post screenshot is included above for context; no Winamp skin bitmap, logo, proprietary font or source code is used as an asset in the theme. Silverglass is not affiliated with Winamp or Obsidian. The demo track label is a nod to the reference image.

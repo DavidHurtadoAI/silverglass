@@ -36,7 +36,11 @@ These are the light and dark screenshots I selected for this release.
 
 ## Install
 
-Silverglass is published on GitHub. It has **not yet been accepted into the Obsidian Community Themes directory**.
+Silverglass has been **accepted into the Obsidian Community Themes directory**. You can install it from its [official directory listing](https://community.obsidian.md/themes/silverglass).
+
+### Manual installation
+
+You can also install it directly from GitHub:
 
 1. Download `theme.css` and `manifest.json` from the [latest release](https://github.com/DavidHurtadoAI/silverglass/releases/latest).
 2. Create a folder named `Silverglass` inside your vault's `.obsidian/themes/` folder.
@@ -67,7 +71,7 @@ Use this in any note:
 - Version **0.1.5**, tested on **Obsidian 1.14.2 for Windows**.
 - `minAppVersion` is conservatively set to `1.14.2`; older versions have not been verified.
 - Both light and dark modes were checked in the app. Mobile devices and other operating systems have not been tested.
-- The theme passes the official `stylelint-config-obsidianmd` configuration with zero errors and warnings. This does not imply approval by the Community directory or exhaustive compatibility with every plugin.
+- The theme passes the official `stylelint-config-obsidianmd` configuration with zero errors and warnings. This does not guarantee compatibility with every plugin.
 - Original CSS, standard Obsidian variables, local embedded SVG chevrons, no remote fonts or images, no telemetry, and no `!important` declarations.
 
 Please report issues with your Obsidian version, operating system, light/dark mode, and a screenshot.

@@ -1,4 +1,24 @@
-/* Silverglass 0.1.4 — original CSS, MIT. No external assets. */
+/* Silverglass 0.1.7 — original CSS, MIT. No external assets. */
+
+/* @settings
+name: Silverglass
+id: silverglass
+settings:
+  - id: sg-equalizer-enabled
+    title: Decorative equalizer
+    description: Show the animated blue-glass spectrum in the desktop status bar.
+    type: class-toggle
+    default: true
+  - id: sg-equalizer-duration
+    title: Equalizer cycle duration
+    description: Seconds per loop. Lower values make the bars move faster.
+    type: variable-number-slider
+    default: 0.8
+    min: 0.4
+    max: 3.2
+    step: 0.1
+    format: s
+*/
 body {
   --font-interface-theme: tahoma, verdana, sans-serif;
   --font-text-theme: "Segoe UI", sans-serif;
@@ -318,6 +338,7 @@ body {
 /* Decorative spectrum: one pseudo-element, no audio or plugin required. */
 body {
   --sg-equalizer-display: block;
+  --sg-equalizer-duration: 0.8s;
   --sg-equalizer-play-state: running;
   --sg-equalizer-bar: repeating-linear-gradient(to top, #b7d8ff 0 2px, #0000 2px 3px);
 }
@@ -343,17 +364,25 @@ body {
     var(--sg-equalizer-bar), var(--sg-equalizer-bar);
   background-repeat: no-repeat;
   background-position:
-    4px 16px, 10px 16px, 16px 16px, 22px 16px,
-    28px 16px, 34px 16px, 40px 16px, 46px 16px,
-    52px 16px, 58px 16px, 64px 16px, 70px 16px;
-  background-position-y: bottom 3px;
+    left 4px bottom 3px,
+    left 10px bottom 3px,
+    left 16px bottom 3px,
+    left 22px bottom 3px,
+    left 28px bottom 3px,
+    left 34px bottom 3px,
+    left 40px bottom 3px,
+    left 46px bottom 3px,
+    left 52px bottom 3px,
+    left 58px bottom 3px,
+    left 64px bottom 3px,
+    left 70px bottom 3px;
   background-size:
     3px 4px, 3px 7px, 3px 10px, 3px 13px,
     3px 7px, 3px 10px, 3px 4px, 3px 7px,
     3px 13px, 3px 10px, 3px 7px, 3px 4px;
   box-shadow: inset 0 1px 3px #0008, 0 1px 0 var(--sg-highlight);
   pointer-events: none;
-  animation: sg-status-spectrum 3.2s steps(1, end) infinite;
+  animation: sg-status-spectrum var(--sg-equalizer-duration) steps(1, end) infinite;
   animation-play-state: var(--sg-equalizer-play-state);
 }
 
@@ -390,6 +419,12 @@ body {
 .status-bar:hover::before,
 body:not(.is-focused) .status-bar::before {
   animation-play-state: paused;
+}
+
+/* Without Style Settings the spectrum remains enabled by default. */
+body.css-settings-manager:not(.sg-equalizer-enabled) .status-bar::before {
+  display: none;
+  animation: none;
 }
 
 @media (prefers-reduced-motion: reduce) {

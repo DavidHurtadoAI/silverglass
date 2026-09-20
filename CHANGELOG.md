@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.7
+
+Anchor every equalizer bar to the bottom and speed up the default loop from 3.2 to 0.8 seconds. Add optional Style Settings controls to toggle the effect (enabled by default) and adjust speed. Document resource use and motion behavior.
+
 ## 0.1.6
 
 Add a compact CSS-only decorative equalizer to the desktop status bar. Pause when unfocused or hovered; respect reduced motion; hide on narrow windows. CSS variables allow hiding or pausing it without plugins. The animation is not audio-reactive.

@@ -1,8 +1,7 @@
-Add a small Winamp-inspired decorative spectrum to the desktop status bar, entirely in CSS.
+Improve the decorative status-bar equalizer:
 
-- No plugins, JavaScript, network requests or audio access.
-- Pauses when Obsidian loses focus or the status bar is hovered.
-- Respects reduced-motion preferences and hides on narrow windows.
-- Can be hidden or paused through CSS variables documented in the README.
-
-This is a decorative animation, not an audio visualizer. Checked in Obsidian 1.14.2 on Windows. Official theme lint passes.
+- Every bar grows upward from a fixed bottom baseline.
+- Four times faster by default: a 0.8-second loop.
+- Optional Style Settings toggle, enabled by default, plus adjustable cycle duration.
+- Still works without plugins. Disabling the effect stops the animation entirely.
+- README explains controls, resource use and reduced-motion behavior.

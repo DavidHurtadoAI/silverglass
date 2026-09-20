@@ -61,6 +61,12 @@ The example uses inline HTML and SVG. It contains no scripts or external resourc
 
 A small blue-glass spectrum animates in the desktop status bar. It is entirely CSS: no plugin, JavaScript, audio access or network connection. The bars follow a decorative loop, not the music playing on your computer.
 
+All bars grow upward from a shared bottom baseline. The default loop lasts 0.8 seconds, with about ten visible bar updates per second.
+
+The equalizer is **enabled by default**, including without plugins. If you use the optional [Style Settings plugin](https://github.com/mgmeyers/obsidian-style-settings), open **Settings > Style Settings > Silverglass** to switch **Decorative equalizer** on or off. **Equalizer cycle duration** adjusts the speed: smaller values are faster. Style Settings is only needed for these controls, not the effect itself.
+
+Resource use is expected to be low: CSS repaints a tiny 76 by 22 pixel element without changing the surrounding layout. It is not zero-cost, and CPU/GPU use has not been benchmarked. Turning it off in Style Settings removes the animation entirely.
+
 The animation pauses when Obsidian loses focus or you hover over the status bar. It becomes static when your system requests reduced motion and hides in windows 700 pixels wide or narrower to leave room for status information.
 
 To hide it, enable a CSS snippet containing:
@@ -84,7 +90,7 @@ Use this in any note:
 
 ## Compatibility and validation
 
-- Version **0.1.6**, tested on **Obsidian 1.14.2 for Windows**.
+- Version **0.1.7**, tested on **Obsidian 1.14.2 for Windows**.
 - `minAppVersion` is conservatively set to `1.14.2`; older versions have not been verified.
 - Both light and dark modes were checked in the app. Mobile devices and other operating systems have not been tested.
 - The theme passes the official `stylelint-config-obsidianmd` configuration with zero errors and warnings. This does not guarantee compatibility with every plugin.

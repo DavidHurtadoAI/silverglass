@@ -18,6 +18,10 @@ I then tried it in Obsidian and sent back screenshots pointing out small issues:
 
 That's how Silverglass came about. I brought the reference, challenged the estimate, and reviewed the results; Máquina wrote the code and made the corrections. The 13 minutes describe the first working prototype. We spent additional time refining and testing the version you can download here.
 
+## Now with equalizer!
+
+![Animated Silverglass equalizer in the Obsidian status bar](screenshots/equalizer.gif)
+
 ## Screenshots
 
 These are the light and dark screenshots I selected for this release.

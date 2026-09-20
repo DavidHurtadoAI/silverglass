@@ -22,6 +22,10 @@ That's how Silverglass came about. I brought the reference, challenged the estim
 
 ![Animated Silverglass equalizer in the Obsidian status bar](screenshots/equalizer.gif)
 
+The equalizer is enabled by default. With the optional **Style Settings** plugin, go to **Settings > Style Settings > Silverglass** to **turn it on or off** and **adjust its speed** using Equalizer cycle duration (lower values are faster). The animation itself works without plugins.
+
+![Silverglass Style Settings controls for toggling the equalizer and adjusting its speed](screenshots/equalizer-style-settings.png)
+
 ## Screenshots
 
 These are the light and dark screenshots I selected for this release.

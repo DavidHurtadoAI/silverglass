@@ -315,6 +315,95 @@ body {
   border-right: 1px solid var(--background-modifier-border);
   }
 
+/* Decorative spectrum: one pseudo-element, no audio or plugin required. */
+body {
+  --sg-equalizer-display: block;
+  --sg-equalizer-play-state: running;
+  --sg-equalizer-bar: repeating-linear-gradient(to top, #b7d8ff 0 2px, #0000 2px 3px);
+}
+
+.status-bar::before {
+  content: "";
+  display: var(--sg-equalizer-display);
+  box-sizing: border-box;
+  flex: 0 0 76px;
+  width: 76px;
+  height: 22px;
+  align-self: center;
+  margin: 0 8px 0 2px;
+  border: 1px solid var(--sg-edge);
+  border-radius: 5px;
+  background-color: #182e50;
+  background-image:
+    var(--sg-equalizer-bar), var(--sg-equalizer-bar),
+    var(--sg-equalizer-bar), var(--sg-equalizer-bar),
+    var(--sg-equalizer-bar), var(--sg-equalizer-bar),
+    var(--sg-equalizer-bar), var(--sg-equalizer-bar),
+    var(--sg-equalizer-bar), var(--sg-equalizer-bar),
+    var(--sg-equalizer-bar), var(--sg-equalizer-bar);
+  background-repeat: no-repeat;
+  background-position:
+    4px 16px, 10px 16px, 16px 16px, 22px 16px,
+    28px 16px, 34px 16px, 40px 16px, 46px 16px,
+    52px 16px, 58px 16px, 64px 16px, 70px 16px;
+  background-position-y: bottom 3px;
+  background-size:
+    3px 4px, 3px 7px, 3px 10px, 3px 13px,
+    3px 7px, 3px 10px, 3px 4px, 3px 7px,
+    3px 13px, 3px 10px, 3px 7px, 3px 4px;
+  box-shadow: inset 0 1px 3px #0008, 0 1px 0 var(--sg-highlight);
+  pointer-events: none;
+  animation: sg-status-spectrum 3.2s steps(1, end) infinite;
+  animation-play-state: var(--sg-equalizer-play-state);
+}
+
+@keyframes sg-status-spectrum {
+  12.5% {
+    background-size: 3px 7px, 3px 4px, 3px 13px, 3px 10px, 3px 4px, 3px 7px, 3px 13px, 3px 10px, 3px 7px, 3px 4px, 3px 10px, 3px 7px;
+  }
+
+  25% {
+    background-size: 3px 10px, 3px 7px, 3px 4px, 3px 7px, 3px 10px, 3px 13px, 3px 7px, 3px 4px, 3px 10px, 3px 13px, 3px 4px, 3px 7px;
+  }
+
+  37.5% {
+    background-size: 3px 4px, 3px 10px, 3px 7px, 3px 4px, 3px 13px, 3px 10px, 3px 4px, 3px 13px, 3px 7px, 3px 10px, 3px 7px, 3px 4px;
+  }
+
+  50% {
+    background-size: 3px 7px, 3px 13px, 3px 10px, 3px 7px, 3px 4px, 3px 7px, 3px 10px, 3px 4px, 3px 13px, 3px 7px, 3px 10px, 3px 4px;
+  }
+
+  62.5% {
+    background-size: 3px 4px, 3px 7px, 3px 13px, 3px 4px, 3px 10px, 3px 7px, 3px 13px, 3px 10px, 3px 4px, 3px 7px, 3px 4px, 3px 10px;
+  }
+
+  75% {
+    background-size: 3px 10px, 3px 4px, 3px 7px, 3px 10px, 3px 7px, 3px 4px, 3px 10px, 3px 13px, 3px 7px, 3px 4px, 3px 13px, 3px 7px;
+  }
+
+  87.5% {
+    background-size: 3px 7px, 3px 10px, 3px 4px, 3px 13px, 3px 10px, 3px 7px, 3px 4px, 3px 7px, 3px 10px, 3px 7px, 3px 4px, 3px 10px;
+  }
+}
+
+.status-bar:hover::before,
+body:not(.is-focused) .status-bar::before {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .status-bar::before {
+    animation: none;
+  }
+}
+
+@media (width <= 700px) {
+  .status-bar::before {
+    display: none;
+  }
+}
+
 /* Pressed metal buttons and recessed input wells. */
 button, .dropdown, .clickable-icon {
   background: var(--sg-metal);

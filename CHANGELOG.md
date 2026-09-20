@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.6
+
+Add a compact CSS-only decorative equalizer to the desktop status bar. Pause when unfocused or hovered; respect reduced motion; hide on narrow windows. CSS variables allow hiding or pausing it without plugins. The animation is not audio-reactive.
+
 ## 0.1.5
 
 Remove the border and inset shadow from frontmatter property names so they appear flat like property values in light and dark modes.

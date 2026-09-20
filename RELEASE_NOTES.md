@@ -1,3 +1,8 @@
-Remove the border and inset shadow from frontmatter property names, matching the flat appearance of property values in light and dark modes. Other text fields keep their existing styling.
+Add a small Winamp-inspired decorative spectrum to the desktop status bar, entirely in CSS.
 
-Install using the attached `theme.css` and `manifest.json` in `.obsidian/themes/Silverglass/`.
+- No plugins, JavaScript, network requests or audio access.
+- Pauses when Obsidian loses focus or the status bar is hovered.
+- Respects reduced-motion preferences and hides on narrow windows.
+- Can be hidden or paused through CSS variables documented in the README.
+
+This is a decorative animation, not an audio visualizer. Checked in Obsidian 1.14.2 on Windows. Official theme lint passes.

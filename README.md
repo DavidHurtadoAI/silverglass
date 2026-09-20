@@ -57,6 +57,22 @@ To stop using it, select the default theme in Appearance. No plugin, account, ne
 
 The example uses inline HTML and SVG. It contains no scripts or external resources. The full-size front panel is designed for a reasonably wide note pane; narrow panes may clip parts of this optional demo.
 
+## Decorative status-bar equalizer
+
+A small blue-glass spectrum animates in the desktop status bar. It is entirely CSS: no plugin, JavaScript, audio access or network connection. The bars follow a decorative loop, not the music playing on your computer.
+
+The animation pauses when Obsidian loses focus or you hover over the status bar. It becomes static when your system requests reduced motion and hides in windows 700 pixels wide or narrower to leave room for status information.
+
+To hide it, enable a CSS snippet containing:
+
+```css
+body {
+  --sg-equalizer-display: none;
+}
+```
+
+To keep the display but freeze the animation, use `--sg-equalizer-play-state: paused;` instead.
+
 ## Blue-glass callouts
 
 Use this in any note:
@@ -68,7 +84,7 @@ Use this in any note:
 
 ## Compatibility and validation
 
-- Version **0.1.5**, tested on **Obsidian 1.14.2 for Windows**.
+- Version **0.1.6**, tested on **Obsidian 1.14.2 for Windows**.
 - `minAppVersion` is conservatively set to `1.14.2`; older versions have not been verified.
 - Both light and dark modes were checked in the app. Mobile devices and other operating systems have not been tested.
 - The theme passes the official `stylelint-config-obsidianmd` configuration with zero errors and warnings. This does not guarantee compatibility with every plugin.

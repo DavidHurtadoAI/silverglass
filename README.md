@@ -98,8 +98,8 @@ Use this in any note:
 
 ## Compatibility and validation
 
-- Version **0.1.7**, tested on **Obsidian 1.14.2 for Windows**.
-- `minAppVersion` is conservatively set to `1.14.2`; older versions have not been verified.
+- Version **0.1.8**. Theme visuals are unchanged from 0.1.7, tested on **Obsidian 1.14.2 for Windows**.
+- The installation version restriction has been removed: the required `minAppVersion` field is set to `0.0.0`, so Obsidian Early Access is no longer required. Compatibility with historical Obsidian versions has not been exhaustively tested.
 - Both light and dark modes were checked in the app. Mobile devices and other operating systems have not been tested.
 - The theme passes the official `stylelint-config-obsidianmd` configuration with zero errors and warnings. This does not guarantee compatibility with every plugin.
 - Original CSS, standard Obsidian variables, local embedded SVG chevrons, no remote fonts or images, no telemetry, and no `!important` declarations.

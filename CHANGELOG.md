@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.8
+
+Remove the minimum-app-version installation gate that required Obsidian 1.14.2 Early Access and caused "No appropriate version found" for stable-release users. Keep the required `minAppVersion` field with the value `0.0.0`. No visual or behavior changes.
+
 ## 0.1.7
 
 Anchor every equalizer bar to the bottom and speed up the default loop from 3.2 to 0.8 seconds. Add optional Style Settings controls to toggle the effect (enabled by default) and adjust speed. Document resource use and motion behavior.

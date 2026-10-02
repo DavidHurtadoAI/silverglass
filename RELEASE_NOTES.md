@@ -1,9 +1,9 @@
-Mobile layout improvements prompted by iPhone screenshots:
+Mobile Properties and Dataview refinements:
 
-- Round 44px navigation and drawer buttons with centered icons.
-- Top and bottom bars fit narrow screens.
-- Remove overlapping raised surfaces and double borders on Files/Backlinks selectors.
-- Smaller mobile note titles and 20px reading margins.
-- Keep the decorative desktop equalizer hidden on mobile.
+- Compact property warning icons; remove the nested rounded property card.
+- Simplify the drawer panel-picker menu while preserving its selected item.
+- Hide scrolling note content within the OS status safe area.
+- Metal/blue-glass styling for native Dataview task checkboxes.
+- Align mobile Dataview tables with the note; scroll wide tables locally and keep dates on one line.
 
-Checked using Obsidian mobile emulation at 320, 375, 390, 430 and 768 pixels in both light and dark modes. Physical iOS/Android validation is still pending. Official theme lint passes.
+Checked in Obsidian 1.14.4 mobile emulation in light/dark modes at 320, 390 and 430 pixels, using native property controls and Dataview markup fixtures. Live Dataview queries and physical Android/iOS devices remain unverified. Official theme lint passes.

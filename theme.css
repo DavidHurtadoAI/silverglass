@@ -1,4 +1,4 @@
-/* Silverglass 0.1.9 — original CSS, MIT. No external assets. */
+/* Silverglass 0.1.10 — original CSS, MIT. No external assets. */
 
 /* @settings
 name: Silverglass
@@ -1324,4 +1324,103 @@ body.is-mobile .workspace-drawer .nav-buttons-container .nav-action-button {
   width: 44px;
   height: 44px;
   padding: 0;
+}
+
+/* Compact property controls keep warning icons inside their rows. */
+body.is-mobile .metadata-container .clickable-icon {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  flex: 0 0 24px;
+  border: none;
+  border-radius: 4px;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+body.is-mobile .metadata-container .clickable-icon > svg {
+  width: 16px;
+  height: 16px;
+}
+
+body.is-mobile .metadata-property-warning-icon {
+  color: var(--text-warning);
+}
+
+body.is-mobile .metadata-content,
+body.is-mobile .metadata-properties {
+  border-radius: 0;
+  background: transparent;
+}
+
+/* Keep scrolling notes out of the OS status area, including hidden navigation. */
+body.is-mobile.is-phone {
+  --view-header-height: 52px;
+  --view-top-fade-mask: linear-gradient(to bottom, transparent 0, transparent var(--safe-area-inset-top), #000 var(--safe-area-inset-top));
+}
+
+/* Drawer options are a menu, not another row of raised toolbar buttons. */
+body.is-mobile .workspace-drawer-tab-options-list {
+  background: var(--sg-panel);
+  border: 1px solid var(--sg-edge);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px #07152c55;
+  padding: 4px 4px var(--touch-size-l);
+}
+
+body.is-mobile .workspace-drawer-tab-options-list .workspace-tab-header {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+}
+
+body.is-mobile .workspace-drawer-tab-options-list .workspace-tab-header-inner {
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+body.is-mobile .workspace-drawer-tab-options-list .workspace-tab-header.is-active .workspace-tab-header-inner {
+  background: var(--sg-screen);
+  color: var(--sg-screen-text);
+}
+
+/* Dataview uses native task inputs; retain its events and the native check mark. */
+input.dataview.task-list-item-checkbox {
+  background: var(--sg-metal);
+  border: 1px solid var(--sg-edge);
+  box-shadow: var(--sg-bevel);
+}
+
+input.dataview.task-list-item-checkbox:checked {
+  --checkbox-marker-color: #fff;
+
+  background: var(--sg-screen);
+  border-color: var(--sg-edge);
+}
+
+body.is-mobile .block-language-dataview,
+body.is-mobile .block-language-dataviewjs {
+  max-width: 100%;
+  min-width: 0;
+  margin-inline: 0;
+  padding-inline: 0;
+  overflow-x: auto;
+}
+
+body.is-mobile table.table-view-table {
+  width: max-content;
+  min-width: 100%;
+  margin-inline: 0;
+}
+
+body.is-mobile table.table-view-table th,
+body.is-mobile table.table-view-table td {
+  white-space: nowrap;
+  overflow-wrap: normal;
+  word-break: normal;
 }

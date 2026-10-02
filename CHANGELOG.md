@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.10
+
+Keep mobile Properties warnings compact and remove its nested rounded background. Simplify the drawer panel menu. Hide note content within the system safe area. Style Dataview task checkboxes and keep mobile table cells on one line with local horizontal scrolling and no extra inline margin. Checked using Obsidian 1.14.4 mobile emulation and Dataview markup fixtures; live queries and physical devices remain unverified.
+
 ## 0.1.9
 
 Adapt mobile navigation and drawer controls to square 44px touch targets. Fit the top and bottom bars to narrow screens and remove overlapping raised surfaces and double drawer-selector borders. Use smaller mobile note titles and 20px reading margins. Hide the desktop decorative equalizer on mobile. Validated in Obsidian mobile emulation in light and dark modes; physical mobile devices remain unverified.

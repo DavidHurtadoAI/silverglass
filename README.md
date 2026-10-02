@@ -96,9 +96,17 @@ Use this in any note:
 > Your text inside a recessed blue-glass display.
 ```
 
+## Mobile properties and Dataview
+
+Mobile property warnings stay compact, and Properties uses a single surface. The drawer panel picker remains available as a menu with a clear selected item. A hard cutoff hides scrolling note content in the system status area; it follows the safe-area inset reported by Obsidian.
+
+Dataview task checkboxes use the Silverglass metal/blue-glass finish. On mobile, Dataview tables align with the note and scroll horizontally inside their result block. Cells stay on one line, so dates are not split across rows. Swipe the table to see columns that do not fit on screen.
+
+These changes were checked in Obsidian mobile emulation, with native property controls and Dataview markup fixtures at 320, 390 and 430 pixels. Live Dataview queries and physical Android/iOS devices still need confirmation.
+
 ## Compatibility and validation
 
-- Version **0.1.9**. Theme visuals are unchanged from 0.1.7, tested on **Obsidian 1.14.2 for Windows**.
+- Version **0.1.10**, checked on **Obsidian 1.14.4 for Windows**.
 - The installation version restriction has been removed: the required `minAppVersion` field is set to `0.0.0`, so Obsidian Early Access is no longer required. Compatibility with historical Obsidian versions has not been exhaustively tested.
 - Both light and dark modes were checked in the Windows app. Mobile layouts were checked using Obsidian mobile emulation at 320, 375, 390, 430 and 768 pixels wide. Physical iOS and Android devices have not yet been verified.
 - The theme passes the official `stylelint-config-obsidianmd` configuration with zero errors and warnings. This does not guarantee compatibility with every plugin.

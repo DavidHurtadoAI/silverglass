@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.9
+
+Adapt mobile navigation and drawer controls to square 44px touch targets. Fit the top and bottom bars to narrow screens and remove overlapping raised surfaces and double drawer-selector borders. Use smaller mobile note titles and 20px reading margins. Hide the desktop decorative equalizer on mobile. Validated in Obsidian mobile emulation in light and dark modes; physical mobile devices remain unverified.
+
 ## 0.1.8
 
 Remove the minimum-app-version installation gate that required Obsidian 1.14.2 Early Access and caused "No appropriate version found" for stable-release users. Keep the required `minAppVersion` field with the value `0.0.0`. No visual or behavior changes.

@@ -1,4 +1,4 @@
-/* Silverglass 0.1.8 — original CSS, MIT. No external assets. */
+/* Silverglass 0.1.9 — original CSS, MIT. No external assets. */
 
 /* @settings
 name: Silverglass
@@ -419,6 +419,11 @@ body {
 .status-bar:hover::before,
 body:not(.is-focused) .status-bar::before {
   animation-play-state: paused;
+}
+
+body.is-mobile .status-bar::before {
+  display: none;
+  animation: none;
 }
 
 /* Without Style Settings the spectrum remains enabled by default. */
@@ -1173,4 +1178,150 @@ input.metadata-property-key-input {
   padding: 0;
 
   --icon-size: 18px;
+}
+
+/* Mobile controls use square touch targets and one metal surface per control. */
+body.is-mobile {
+  --file-line-width: 40rem;
+  --file-margins: 20px;
+}
+
+body.is-mobile .workspace-split.mod-root .workspace-tab-container {
+  padding: 0;
+}
+
+body.is-mobile .workspace-split.mod-root .workspace-leaf {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+body.is-mobile .clickable-icon {
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  flex: 0 0 44px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+body.is-mobile .clickable-icon > svg {
+  width: 22px;
+  height: 22px;
+}
+
+body.is-mobile .view-header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 52px;
+  padding-inline: 8px;
+  gap: 4px;
+  background: var(--sg-metal);
+}
+
+body.is-mobile .view-header-left,
+body.is-mobile .view-actions {
+  flex: 0 0 auto;
+  align-items: center;
+}
+
+body.is-mobile .view-header-title-container {
+  flex: 1 1 0;
+  min-width: 0;
+  height: auto;
+}
+
+body.is-mobile .view-actions {
+  padding: 0;
+  gap: 4px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+body.is-mobile .view-actions::after,
+body.is-mobile .clickable-icon.mod-raised::after {
+  display: none;
+}
+
+body.is-mobile .view-header .view-action {
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  background: var(--sg-metal);
+  border: 1px solid var(--sg-edge);
+  box-shadow: var(--sg-bevel);
+  backdrop-filter: none;
+}
+
+body.is-mobile .mobile-navbar {
+  box-sizing: border-box;
+  padding-inline: 4px;
+  width: calc(100% - 24px);
+  max-width: 420px;
+  background: var(--sg-metal);
+  border: 1px solid var(--sg-edge);
+  box-shadow: var(--sg-bevel);
+  backdrop-filter: none;
+}
+
+body.is-mobile .mobile-navbar::after {
+  display: none;
+}
+
+body.is-mobile .mobile-navbar-actions {
+  gap: 4px;
+}
+
+body.is-mobile .mobile-navbar-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0;
+  width: auto;
+  min-width: 0;
+}
+
+body.is-mobile .mobile-navbar-action.has-longpress-menu {
+  margin-inline-start: 0;
+}
+
+body.is-mobile .mobile-navbar-action .clickable-icon {
+  width: 44px;
+  height: 44px;
+  background: var(--sg-metal);
+  border: 1px solid var(--sg-edge);
+  box-shadow: var(--sg-bevel);
+}
+
+body.is-mobile .mobile-navbar-tabs-number {
+  width: 22px;
+}
+
+body.is-mobile .workspace-tab-header.workspace-drawer-tab-select {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+}
+
+body.is-mobile .workspace-drawer-tab-select .workspace-tab-header-inner {
+  background: var(--sg-metal);
+  border: 1px solid var(--sg-edge);
+  border-radius: 12px;
+  box-shadow: var(--sg-bevel);
+}
+
+body.is-mobile .inline-title {
+  font-size: 1.6em;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+body.is-mobile .workspace-drawer .nav-buttons-container .nav-action-button {
+  width: 44px;
+  height: 44px;
+  padding: 0;
 }
